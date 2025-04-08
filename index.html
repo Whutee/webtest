@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elektrikář Jura - Ústecký kraj</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #002244;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+    .logo {
+      font-size: 2rem;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    nav {
+      background-color: #004488;
+      padding: 0.5rem;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1581090700227-1e8c7ec4931d?auto=format&fit=crop&w=1350&q=80') center/cover no-repeat;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 6px #000;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    .content {
+      padding: 2rem;
+    }
+    .section {
+      margin-bottom: 2rem;
+    }
+    h2 {
+      color: #002244;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .gallery img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+    .reference {
+      background-color: #e0ecf8;
+      padding: 1rem;
+      border-left: 5px solid #004488;
+      margin: 1rem 0;
+      border-radius: 4px;
+    }
+    .button-container {
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .button {
+      background-color: #004488;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+    .button:hover {
+      background-color: #0066cc;
+    }
+    footer {
+      background-color: #002244;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Elektrikář Jura</div>
+    <div>Profesionální elektrikářské služby v Ústeckém kraji</div>
+  </header>
+
+  <nav>
+    <a href="#sluzby">Služby</a>
+    <a href="#galerie">Galerie</a>
+    <a href="#reference">Reference</a>
+    <a href="o-mne.html">O mně</a>
+    <a href="kontakt.html">Kontakt</a>
+  </nav>
+
+  <div class="hero">
+    Spolehlivý elektrikář v Ústeckém kraji
+  </div>
+
+  <div class="content">
+    <section class="section" id="sluzby">
+      <h2>Naše služby</h2>
+      <ul>
+        <li>Instalace elektroinstalací (domácnosti i firmy)</li>
+        <li>Opravy a revize</li>
+        <li>Zapojení rozvaděčů a zásuvek</li>
+        <li>Smart home technologie</li>
+        <li>Pohotovostní výjezdy</li>
+        <li>Průmyslové elektroinstalace</li>
+      </ul>
+    </section>
+
+    <section class="section" id="galerie">
+        <h2>Galerie prací</h2>
+        <div class="gallery">
+          <img src="https://images.unsplash.com/photo-1593642634367-d91a135587b5?auto=format&fit=crop&w=800&q=80" alt="Instalace">
+          <img src="https://images.unsplash.com/photo-1581090700227-1e8c7ec4931d?auto=format&fit=crop&w=800&q=80" alt="Rozvody">
+          <img src="https://images.unsplash.com/photo-1581093458791-9c43c444bc59?auto=format&fit=crop&w=800&q=80" alt="Elektro práce">
+          <img src="https://images.unsplash.com/photo-1627308595216-439f293e1a59?auto=format&fit=crop&w=800&q=80" alt="Oprava">
+        </div>
+      </section>      
+
+    <section class="section" id="reference">
+      <h2>Reference</h2>
+      <div class="reference">"S panem Jurou jsme byli maximálně spokojeni. Rychlá a kvalitní práce. Doporučujeme!" – Novákovi</div>
+      <div class="reference">"Oprava elektroinstalace proběhla bez problémů, výborná komunikace a profesionální přístup." – Petr M.</div>
+      <div class="reference">"Díky Jurouvi máme doma perfektně zapojený chytrý systém. Super práce!" – Lenka a Tomáš</div>
+    </section>
+
+    <div class="button-container">
+      <a href="o-mne.html" class="button">Více o mně</a>
+      <a href="kontakt.html" class="button">Kontaktujte mě</a>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Elektrikář Jura. Všechna práva vyhrazena.
+  </footer>
+</body>
+</html>
